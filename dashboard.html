@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1 class="logo">Fitness Tracker</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="dashboard">
+    <h2>Welcome Back!</h2>
+    <p>Here’s your weekly fitness overview.</p>
+
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Steps</h3>
+        <p>15,000</p>
+      </div>
+      <div class="stat-card">
+        <h3>Calories Burned</h3>
+        <p>2,500</p>
+      </div>
+      <div class="stat-card">
+        <h3>Workout Time</h3>
+        <p>60 minutes</p>
+      </div>
+    </div>
+
+    <h3>Weekly Progress</h3>
+    <div class="chart-container">
+      <!-- Chart or Progress Graph here -->
+      <canvas id="progressChart"></canvas>
+    </div>
+
+    <a href="activity-tracker.html" class="cta-btn">Track New Activity</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
